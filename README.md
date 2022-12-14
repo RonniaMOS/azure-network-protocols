@@ -35,7 +35,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/R21OQ1i.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  1 A resource group and 2 virtual machines (Microsoft 10 and Linux) were created.
+ A resource group and 2 virtual machines (Microsoft 10 and Linux) were created.
 </p>
 <br />
 
@@ -43,8 +43,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Within Windows 10 Virtual Machine, Wireshark was installed. In Wireshark ICMP traffic was flitered. The private IP address was retrieved of the Ubuntu VM and pinged from within the Windows 10 VM. Observed ping requests and replies within WireShark. From the Windows 10 VM,  PowerShell was opened and a public website (www.google.com) was pinged. A perpetual/non-stop ping was initiated from Windows 10 VM Ubuntu VM.
-Network Security Group was opened on Ubuntu VM. Incoming (inbound) ICMP traffic was disabled. In Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity. ICMP traffic was re-enabled for the Network Security Group on the Ubuntu VM. In Windows 10 VM, the ICMP traffic was observed in WireShark and the command line ping activity.
+Within Windows 10 Virtual Machine, Wireshark was installed. In Wireshark ICMP traffic was flitered. The private IP address was retrieved of the Ubuntu VM and pinged from within the Windows 10 VM. Observed ping requests and replies within WireShark. From the Windows 10 VM,  PowerShell was opened and a public website (www.google.com) was pinged. A perpetual/non-stop ping was initiated from Windows 10 VM Ubuntu VM. Network Security Group was opened on Ubuntu VM. Incoming (inbound) ICMP traffic was disabled. In Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity. ICMP traffic was re-enabled for the Network Security Group on the Ubuntu VM. In Windows 10 VM, the ICMP traffic was observed in WireShark and the command line ping activity.
 
 </p>
 <br />
@@ -53,6 +52,8 @@ Network Security Group was opened on Ubuntu VM. Incoming (inbound) ICMP traffic 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In Wireshark, "SSH traffic only" was filtered. From Windows 10 VM, “SSH into” Ubuntu Virtual Machine (via its private IP address). Using commands such as ls, pwd, etc, type into the linux SSH was used to connect. SSH traffic is observed spamming in WireShark. The SSH connection can be exited, by typing ‘exit’ and pressing [Enter].
+
+
 </p>
 <br />
