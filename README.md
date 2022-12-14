@@ -26,7 +26,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Observe ICMP Traffic
 - Observe SSH Traffic)
 - Observe DHCP Traffic
-- Observe DNS Traffic
 - Observe RDP Traffic
 
 <h2>Actions and Observations</h2>
@@ -53,6 +52,26 @@ Within Windows 10 Virtual Machine, Wireshark was installed. In Wireshark ICMP tr
 </p>
 <p>
 In Wireshark, "SSH traffic only" was filtered. From Windows 10 VM, “SSH into” Ubuntu Virtual Machine (via its private IP address). Using commands such as ls, pwd, etc, type into the linux SSH was used to connect. SSH traffic is observed spamming in WireShark. The SSH connection can be exited, by typing ‘exit’ and pressing [Enter].
+
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+In Wireshark, "DHCP traffic only" was filtered. From Windows 10 VM, a new IP address was issued from the command line (ipconfig /renew). Now DHCP traffic can be observed in WireShark.
+
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+In Wireshark, "DHCP traffic only" was filtered. From Windows 10 VM, a new IP address was issued from the command line (ipconfig /renew). Now DHCP traffic can be observed in WireShark.
 
 
 </p>
