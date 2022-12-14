@@ -22,10 +22,12 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Create Resources
+- Observe ICMP Traffic
+- Observe SSH Traffic)
+- Observe DHCP Traffic
+- Observe DNS Traffic
+- Observe RDP Traffic
 
 <h2>Actions and Observations</h2>
 
@@ -33,7 +35,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/R21OQ1i.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-In step 1 a resource group and 2 virtual machines (Microsoft 10 and Linux) were created.
+  1 A resource group and 2 virtual machines (Microsoft 10 and Linux) were created.
 </p>
 <br />
 
