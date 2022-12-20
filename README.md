@@ -58,7 +58,7 @@ In Wireshark, "SSH traffic only" was filtered. From Windows 10 VM, â€œSSH intoâ€
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/s0wzQ1y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 In Wireshark, "DHCP traffic only" was filtered. From Windows 10 VM, a new IP address was issued from the command line (ipconfig /renew). Now DHCP traffic can be observed in WireShark.
