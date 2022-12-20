@@ -68,7 +68,7 @@ In Wireshark, "DHCP traffic only" was filtered. From Windows 10 VM, a new IP add
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6Ysh565.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 In Wireshark, filter for RDP traffic only (tcp.port == 3389). The non-stop spam of traffic was observed. Non-stop spamming will be obsered instead of "only" showing traffic when doing activity. Because the RDP (protocol) is constantly showing a live stream from one computer to another, traffic is ongoing and always being transmitted.
