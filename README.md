@@ -48,7 +48,7 @@ Within Windows 10 Virtual Machine, Wireshark was installed. In Wireshark ICMP tr
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/qCTHzgS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 In Wireshark, "SSH traffic only" was filtered. From Windows 10 VM, “SSH into” Ubuntu Virtual Machine (via its private IP address). Using commands such as ls, pwd, etc, type into the linux SSH was used to connect. SSH traffic is observed spamming in WireShark. The SSH connection can be exited, by typing ‘exit’ and pressing [Enter].
